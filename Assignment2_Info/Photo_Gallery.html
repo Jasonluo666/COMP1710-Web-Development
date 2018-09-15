@@ -1,0 +1,214 @@
+<!Doctype html>
+
+<html lang="en">
+  <head>
+    <title>My Web Page</title>
+
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="./general_style.css">
+  </head>
+
+  <body>
+    <div id="validation" style="float:left;">
+      <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <image style="border:0;width:88px;height:31px"
+               src="http://jigsaw.w3.org/css-validator/images/vcss"
+               alt="Valid CSS!" />
+        </a>
+      </p>
+    </div>
+
+    <div id="donation">
+      <div style="float:left;">
+        <h3>Donation is always welcome~~~</h3>
+      </div>
+
+      <div style="padding: 20px">
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+          <!-- Identify your business so that you can collect the payments. -->
+          <input type="hidden" name="business"
+                 value="u6488845@anu.edu.au">
+
+          <!-- Specify a Donate button. -->
+          <input type="hidden" name="cmd" value="_donations">
+
+          <!-- Specify details about the contribution -->
+          <input type="hidden" name="item_name" value="Encourage Me to do the Later Update Version">
+          <input type="hidden" name="item_number" value="Cheeeeers~">
+          <input type="hidden" name="currency_code" value="AUD">
+
+          <!-- Display the payment button. -->
+          <input type="image" name="submit"
+                 src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
+                 alt="Donate">
+          <image alt="" width="1" height="1"
+               src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+        </form>	
+      </div>
+    </div>
+	
+	<!--Facebook button-->
+	<iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fpartch.anu.edu.au%2F~u6488845%2F&layout=button&size=large&mobile_iframe=true&width=74&height=28&appId" width="74" height="28" style="border:none;overflow:hidden; float:right;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+	
+	<!--clear the float for both sides-->
+	<div style="clear: left;"></div>
+	<div style="clear: right;"></div>
+
+    <h1>Defense of the Ancients 2</h1><hr/>
+
+    <!--navigation bar among pages-->
+    <div class="overall_contents">
+      <ul>
+        <li><a href="../mainpage.html">Introduction</a></li>
+        <li><a href="../GameCG.html">Game CG</a></li>
+        <li><a href="../GameVideo.html">Game Video</a></li>
+		<li><a href="./Image_Map.html">Image Map</a></li>
+		<li><a href="./Photo_Gallery.html">Photo Gallery</a></li>
+		<li><a href="./Storyboard_Video.html">DOTA2 Story</a></li>
+		<li><a href="../Assignment3_Info/RSS.html">RSS Feed</a></li>
+        <li style="float: right"><a href="../Assignment3_Info/About_my_site.html">About My Site</a></li>
+      </ul>
+    </div>
+
+    <div class="overall_contents">
+      <ul>
+        <li><a href="../Assignment1_Info/Passion.html">Me and My Passion</a></li>
+        <li><a href="../Assignment1_Info/SiteMap.html">Site Map</a></li>
+        <li><a href="../Assignment1_Info/SourceLog.html">Source Log</a></li>
+        <li><a href="../Assignment1_Info/FeedbackForm.html">Feedback Form</a></li>
+		<li><a href="../Assignment3_Info/Alternative_mainpage.html">Alternative CSS page</a></li>
+		<li><a href="../Assignment3_Info/Original.html">Original Work</a></li>
+		<li><a href="../Assignment3_Info/Validation.html">HTML/CSS Validation</a></li>
+        <li><a href="../../assignment.html">Back to Assignment Page</a></li>
+      </ul>
+    </div>
+
+    <!--
+css for the photo gallery 
+Source: https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
+-->
+    <div class="header">
+      <h2>Photo Gallery</h2>
+      <p>Wanna see some Cosplays? Here we go!</p>
+    </div>
+
+    <!-- Photo Grid -->
+    <div class="row"> 
+      <!--one column-->
+      <div class="column">
+        <!--each container class is a photo-->
+        <div class="container">
+          <image src="../Images/cosplay/1.PNG" class="image" style="width:100%">
+          <div class="middle">
+            <a href="../Images/cosplay/1.PNG"><div class="text">
+              <b>INVOKER</b><br>
+              "I am a beacon of knowledge blazing out across a black sea of ignorance."
+              </div></a>
+          </div>
+        </div>
+        <div class="container">
+          <image src="../Images/cosplay/2.PNG" class="image" style="width:100%">
+          <div class="middle">
+            <a href="../Images/cosplay/2.PNG"><div class="text">
+              <b>BEASTMASTER</b><br>
+              "I run with the rabbit and hunt with the hounds."
+              </div></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="container">
+          <image src="../Images/cosplay/5.PNG" class="image" style="width:100%">
+          <div class="middle">
+            <a href="../Images/cosplay/5.PNG"><div class="text">
+              <b>ANTI-MAGE</b><br>
+              "They who live by the wand shall die by my blade."
+              </div></a>
+          </div>
+        </div>
+        <div class="container">
+          <image src="../Images/cosplay/7.PNG" class="image" style="width:100%">
+          <div class="middle">
+            <a href="../Images/cosplay/7.PNG"><div class="text">
+              <b>EARTH SPIRIT(left)</b><br>
+              "Through conflict, one's nature is revealed."<br><br>
+              <b>EMBER SPIRIT(center)</b><br>
+              "Balance in all things."<br><br>
+              <b>STORM SPIRIT(right)</b><br>
+              "Everyone complains about the weather…well, I'm doing something about it!"
+              </div></a>
+          </div>
+        </div>
+        <div class="container">
+          <image src="../Images/cosplay/8.PNG" class="image" style="width:100%">
+          <div class="middle">
+            <a href="../Images/cosplay/8.PNG"><div class="text">
+              <b>LEGION COMMANDER</b><br>
+              "If they want war, then we shall give it to them!"
+              </div></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="container">
+          <image src="../Images/cosplay/4.PNG" class="image" style="width:100%">
+          <div class="middle">
+            <a href="../Images/cosplay/4.PNG"><div class="text">
+              <b>CRYSTAL MAIDEN(left)</b><br>
+              "When Hell freezes over, I'll start calling it Heaven."<br><br>
+              <b>LYCAN(right)</b><br>
+              "Wolves need no armor."
+              </div></a>
+          </div>
+        </div>
+
+        <div class="container">
+          <image src="../Images/cosplay/6.PNG" class="image" style="width:100%">
+          <div class="middle">
+            <a href="../Images/cosplay/6.PNG"><div class="text">
+              <b>DRAGON KNIGHT</b><br>
+              "The Dragon Slyrak sleeps within this armor, and the knight within the Dragon waits. Beware you do not wake them both."
+              </div></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="container">
+          <image src="../Images/cosplay/10.PNG" class="image" style="width:100%">
+          <div class="middle">
+            <a href="../Images/cosplay/10.PNG"><div class="text">
+              <b>TINKER</b><br>
+              "Victory is 10% inspiration, 90% decapitation!"
+              </div></a>
+          </div>
+        </div>
+
+        <div class="container">
+          <image src="../Images/cosplay/9.PNG" class="image" style="width:100%">
+          <div class="middle">
+            <a href="../Images/cosplay/9.PNG"><div class="text">
+              <b>LEGION COMMANDER</b><br>
+              "If they want war, then we shall give it to them!"
+              </div></a>
+          </div>
+        </div>
+
+        <div class="container">
+          <image src="../Images/cosplay/3.PNG" class="image" style="width:100%">
+          <div class="middle">
+            <a href="../Images/cosplay/3.PNG"><div class="text">
+              <b>LINA</b><br>
+              "Fire makes a fine servant, but a harsh mistress."
+              </div></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+</html>

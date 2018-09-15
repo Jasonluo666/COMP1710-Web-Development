@@ -1,0 +1,109 @@
+/*this css file works for web page in File Assignment1_Info*/
+
+body {
+  /*use same background image as my personal website's*/
+  background-image: url("../Images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  font-family: constantia;
+  color: white;
+}
+
+h1{
+  color: white;
+  font-size:60px;
+}
+
+#passion {
+  margin: 0 25%;
+}
+
+/*decorate the all the tables*/
+
+table, th, td {
+  /*add border*/
+  border: 4px solid #e60000;
+  border-collapse: collapse;
+
+  /*fix the width of each column*/
+  table-layout: fixed;
+  word-wrap: break-word;
+
+  /*place the table in the center*/
+  margin-left: auto;
+  margin-right: auto;
+  width:90%;
+  color: #1a0000;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/*add zebra-striped to tables -> easy to look up*/
+tr:nth-child(even) {
+  background-color: #660000;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffa64d;
+}
+
+h1 {
+  text-align: center;
+}
+
+#feedback {
+  text-align: center;
+  /*not too crowded*/
+  line-height: 2.0;
+}
+
+#feedback textarea{
+  border: 5px solid white;
+  border-radius: 10px;
+  background-color: #ffcc99;
+  padding:10px;
+}
+
+/*style for sitemap -> get the idea for Apple SiteMap*/
+.sitemap_column {
+  width: 50%;
+  float: left;
+}
+
+.sitemap_column h2 {
+  margin-left:25%;
+}
+
+.sitemap_ul {
+  list-style-type: none;
+  margin-left:20%;
+}
+
+/*present links as plain text*/
+.sourcelog_table a {
+  text-decoration: none;
+  color: #1a0000;
+  line-height: 2.0;
+}
+
+.sourcelog_table a:hover {
+  color: white;
+}
+
+.sourcelog_table th {
+  text-align: left;
+  padding: 15px;
+}
+
+.button {
+  width:150px; 
+  height: 75px;
+  background-color:#660000;
+  color:white;
+  font-family:constantia;
+  font-size:20px;
+}

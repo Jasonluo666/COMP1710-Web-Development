@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Feedback Form</title>
+
+    <link rel="stylesheet" type="text/css" href="general_style.css">
+  </head>
+  <body>
+    <div id="validation" style="float:left;">
+      <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <image style="border:0;width:88px;height:31px"
+               src="http://jigsaw.w3.org/css-validator/images/vcss"
+               alt="Valid CSS!" />
+        </a>
+      </p>
+    </div>
+
+    <div id="donation">
+      <div style="float:left;">
+        <h3>Donation is always welcome~~~</h3>
+      </div>
+
+      <div style="padding: 20px">
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+          <!-- Identify your business so that you can collect the payments. -->
+          <input type="hidden" name="business"
+                 value="u6488845@anu.edu.au">
+
+          <!-- Specify a Donate button. -->
+          <input type="hidden" name="cmd" value="_donations">
+
+          <!-- Specify details about the contribution -->
+          <input type="hidden" name="item_name" value="Encourage Me to do the Later Update Version">
+          <input type="hidden" name="item_number" value="Cheeeeers~">
+          <input type="hidden" name="currency_code" value="AUD">
+
+          <!-- Display the payment button. -->
+          <input type="image" name="submit"
+                 src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
+                 alt="Donate">
+          <image alt="" width="1" height="1"
+               src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+        </form>	
+      </div>
+    </div>
+
+    <!--navigate to assignment.html-->
+    <a href="../../assignment.html">
+      <button type="button" style="width:200px; height:50px; text-align: center;">
+        Back to Assignment Page
+      </button>
+    </a>
+
+    <h1>Feedback Form</h1>
+
+    <div id="feedback">
+      <form action="mailto:u6488845@anu.edu.au" id="feedbackform">
+        Your Name: <input name="name" type="text" value="" size=20>
+        <br>
+        Email/Phone(optional): <input name="contact" type="text" size=50>
+        <br>
+
+        Are you
+        <input type="radio" name="role" value="student"> Student
+        <input type="radio" name="role" value="tutor"> Tutor
+        <input type="radio" name="role" value="teacher"> Course Convenor <br>
+
+        Rate my website
+        <table>
+          <tr>
+            <th>VARK</th>
+            <th>Very Satisfied</th> 
+            <th>Satisfied</th>
+            <th>Neutral<br>(emmm..)</th>
+            <th>Unsatisfied<br>(take a second consideration plz..)</th>
+            <th>Very Unsatisfied<br>(no..)</th>
+          </tr>
+          <tr>
+            <td>Visual</td>
+            <td><input type="radio" name="rate0"></td> 
+            <td><input type="radio" name="rate0"></td>
+            <td><input type="radio" name="rate0"></td>
+            <td><input type="radio" name="rate0"></td>
+            <td><input type="radio" name="rate0"></td>
+          </tr>
+          <tr>
+            <td>Aural</td>
+            <td><input type="radio" name="rate1"></td> 
+            <td><input type="radio" name="rate1"></td>
+            <td><input type="radio" name="rate1"></td>
+            <td><input type="radio" name="rate1"></td>
+            <td><input type="radio" name="rate1"></td>
+          </tr>
+          <tr>
+            <td>Read/Write</td>
+            <td><input type="radio" name="rate2"></td> 
+            <td><input type="radio" name="rate2"></td>
+            <td><input type="radio" name="rate2"></td>
+            <td><input type="radio" name="rate2"></td>
+            <td><input type="radio" name="rate2"></td>
+          </tr>
+          <tr>
+            <td>Kinesthetic</td>
+            <td><input type="radio" name="rate3"></td> 
+            <td><input type="radio" name="rate3"></td>
+            <td><input type="radio" name="rate3"></td>
+            <td><input type="radio" name="rate3"></td>
+            <td><input type="radio" name="rate3"></td>
+          </tr>
+        </table>
+
+        Please do not hesitate to provide any suggestion:<br>
+        <textarea name="suggestion" rows=20% cols=90%></textarea><br>
+
+        <input class="button" type="submit" value="submit">
+        <input class="button" type="reset" value="reset" form="feedbackform">
+      </form>
+    </div> 
+  </body>
+</html>

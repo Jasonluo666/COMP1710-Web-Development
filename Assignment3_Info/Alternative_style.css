@@ -1,0 +1,72 @@
+/*this css file works for the alternative website page only*/
+
+body {
+  background-image: url("./source/alternative_bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: cover;
+  color: #990099;
+  /*no margin -> for the navigation bar*/
+  margin: 0;
+  font-family: cursive;
+}
+
+.overall_contents ul {
+  background-color: #ff66cc;
+  /*do not need the list style*/
+  list-style-type: none;
+  /*no margin*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+  height: 30%;
+  width: 100%;
+  /*stick on the top*/
+  position: sticky;
+}
+
+/*video and image width*/
+image, video {
+  width: 70%;
+}
+
+/*overall_contents -> navigation bar*/
+.overall_contents li {
+  /*Horizontal*/
+  display: inline;
+}
+
+.overall_contents a {
+  text-decoration: none;
+  color: #990099;
+  padding: 15px 15px;
+  text-align: center;
+}
+
+.overall_contents a:hover {
+  background-color: gray;
+}
+
+#introduction_contents ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #ff66cc;
+  /*will not move while scrolling*/
+  position: fixed;
+  height: 100%;
+  width: 10%;
+}
+
+/*introduction_contents -> navigation bar*/
+#introduction_contents a {
+  display: block;
+  color: #990099;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+#introduction_contents a:hover {
+  background-color: gray;
+}

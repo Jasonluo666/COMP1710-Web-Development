@@ -1,0 +1,93 @@
+<!Doctype html>
+
+<html lang="en">
+  <head>
+    <title>My Web Page</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <!-- commenting test -->
+
+  <body>
+    <div id="validation" style="float:left;">
+      <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <image style="border:0;width:88px;height:31px"
+               src="http://jigsaw.w3.org/css-validator/images/vcss"
+               alt="Valid CSS!" />
+        </a>
+      </p>
+    </div>
+
+    <div id="donation">
+      <div style="float:left;">
+        <h3>Donation is always welcome~~~</h3>
+      </div>
+
+      <div style="padding: 20px">
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+          <!-- Identify your business so that you can collect the payments. -->
+          <input type="hidden" name="business"
+                 value="u6488845@anu.edu.au">
+
+          <!-- Specify a Donate button. -->
+          <input type="hidden" name="cmd" value="_donations">
+
+          <!-- Specify details about the contribution -->
+          <input type="hidden" name="item_name" value="Encourage Me to do the Later Update Version">
+          <input type="hidden" name="item_number" value="Cheeeeers~">
+          <input type="hidden" name="currency_code" value="AUD">
+
+          <!-- Display the payment button. -->
+          <input type="image" name="submit"
+                 src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
+                 alt="Donate">
+          <image alt="" width="1" height="1"
+               src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+        </form>	
+      </div>
+    </div>
+	
+	<!--Facebook button-->
+	<iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fpartch.anu.edu.au%2F~u6488845%2F&layout=button&size=large&mobile_iframe=true&width=74&height=28&appId" width="74" height="28" style="border:none;overflow:hidden; float:right;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+	
+	<!--clear the float for both sides-->
+	<div style="clear: left;"></div>
+	<div style="clear: right;"></div>
+
+    <h1>Defense of the Ancients 2</h1><hr/>
+
+    <!--navigation bar among pages-->
+    <div class="overall_contents">
+      <ul>
+        <li><a href="mainpage.html">Introduction</a></li>
+        <li><a href="GameCG.html">Game CG</a></li>
+        <li><a href="GameVideo.html">Game Video</a></li>
+		<li><a href="./Assignment2_Info/Image_Map.html">Image Map</a></li>
+		<li><a href="./Assignment2_Info/Photo_Gallery.html">Photo Gallery</a></li>
+		<li><a href="./Assignment2_Info/Storyboard_Video.html">DOTA2 Story</a></li>
+		<li><a href="./Assignment3_Info/RSS.html">RSS Feed</a></li>
+        <li style="float: right"><a href="./Assignment3_Info/About_my_site.html">About My Site</a></li>
+      </ul>
+    </div>
+
+    <div class="overall_contents">
+      <ul>
+        <li><a href="./Assignment1_Info/Passion.html">Me and My Passion</a></li>
+        <li><a href="./Assignment1_Info/SiteMap.html">Site Map</a></li>
+        <li><a href="./Assignment1_Info/SourceLog.html">Source Log</a></li>
+        <li><a href="./Assignment1_Info/FeedbackForm.html">Feedback Form</a></li>
+		<li><a href="./Assignment3_Info/Alternative_mainpage.html">Alternative CSS page</a></li>
+		<li><a href="./Assignment3_Info/Original.html">Original Work</a></li>
+		<li><a href="./Assignment3_Info/Validation.html">HTML/CSS Validation</a></li>
+        <li><a href="../assignment.html">Back to Assignment Page</a></li>
+      </ul>
+    </div>
+
+    <h2>Fnatic vs VP Grand Final Summit 8 Minor 2017 Highlights Dota 2</h2>
+    <video controls>
+      <source src="./gameCG/Fnatic vs VP Grand Final Summit 8 Minor 2017 Highlights Dota 2.mp4" type="video/mp4">
+    </video>
+  </body>
+</html>
